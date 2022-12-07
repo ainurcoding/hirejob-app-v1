@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    APP_BACKEND_URL: 'https://dark-rose-ox-cuff.cyclic.app',
+    APP_BACKEND_URL: 'https://calm-gold-hermit-crab-hose.cyclic.app',
   },
   images: {
     domains: ["res.cloudinary.com"],
