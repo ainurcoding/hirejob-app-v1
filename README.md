@@ -17,6 +17,8 @@
 
 ### Structure Folder 
 <p>Backend</p>
+
+<a href='https://github.com/ainurcoding/hirejob-api-v1'>Visit backend repository</a>
 <ul>
   <li>public</li>
   <ul>
@@ -37,14 +39,12 @@
 <p>Frontend</p>
 <ul>
   <li>public || <span><b><i>You can drop anything if that is accesseble for public</i></b></span></li>
-  <li>src</li>
-  <ul>
-    <li>assets ||<span><b><i>You can store various needs for this website, such as images, styles, javascript, and others.</i></b></span></li>
-    <li>components ||<span><b><i>This folder is for storing layouts, such as Navbar.</i></b></span></li>
-    <li>pages ||<span><b><i>This folder is the main folder in the website display for this application.</i></b></span></li>
-    <li>redux ||<span><b><i>Redux to set the global state, as well as the use of user data.</i></b></span></li>
-    <li>router ||<span><b><i>The router is used to set the endpoint of this application.</i></b></span></li>
-  </ul>
+  <li>componets || <span><b><i>Components have been used to modify content and, like content cards, buttons, etc, can be reused.</i></b></span></li>
+  <li>layouts || <span>Layouts, like components, are used throughout the page, such as the navbar or footer.</span></li>
+  <li>pages || <span><b><i>This folder is used to hold all the pages on our website.</i></b></span></li>
+  <li>styles || <span><b><i>This folder contains CSS styles for beautifying website pages.</i></b></span></li>
+  
+  
 </ul>
 <hr/>
 
@@ -74,54 +74,55 @@
   <summary>
     Login Page
   </summary>
-<img src="ss/login_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/1.%20login%20page.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
-    Register Page
+    Register Worker Page
   </summary>
-<img src="ss/register_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/1.2%20registrasi%20worker.PNG" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Register Recruiter Page
+  </summary>
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/1.3%20registrasi%20recruiter.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
     Landing Page
   </summary>
-<img src="ss/landing_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/2.%20landing%20page.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
-    Add recipe Page
+    Search Worker Page
   </summary>
-<img src="ss/add recipe_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/search%20worker.png" alt="login Page" />
 </details>
 <details>
   <summary>
-    Profile Page
+    Profile Worker Page
   </summary>
-<img src="ss/profile_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/4.1%20profile%20page%20worker.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
-    My recipe Page
+    Profile recruiter Page
   </summary>
-<img src="ss/my recipe_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/profile-recruiter.png" alt="login Page" />
 </details>
 <details>
   <summary>
-    Detail recipe Page
+    Update Profile Worker Page
   </summary>
-<img src="ss/detail recipe_page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/5.%20edit%20profile%20worker.PNG" alt="login Page" />
 </details>
-<details>
-  <summary>
-    Update recipe Page
-  </summary>
-<img src="ss/update_page.png" alt="login Page" />
-</details>
+
 <hr />
 
 ### Demo Application
-<p>Visit this link for app demo <a href='https://mama-recipe-kappa.vercel.app/'>mama recipe</a></p>
+<p>Visit this link for app demo <a href='https://hirejob-iota.vercel.app/'>Hirejob</a></p>
 <hr />
 
 ### For More Information
