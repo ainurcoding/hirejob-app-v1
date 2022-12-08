@@ -1,34 +1,141 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Hirejob-App
+<div align="center"><img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/public/assets-img/only%20logo.png"/></div>
 
-First, run the development server:
+<hr/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## General Information
+### Build with
+<ul>
+  <li><a href='https://html5.org/'>HTML 5</a></li>
+  <li><a href='https://www.w3.org/Style/CSS/Overview.en.html'>CSS</a></li>
+  <li><a href='https://www.javascript.com/'>JavaScript</a></li>
+  <li><a href='https://nodejs.org/en/'>NodeJS</a></li>
+  <li><a href='https://nextjs.org/'>Next JS (for frontend as a library React JS)</a></li>
+  <li><a href='https://expressjs.com/'>Express JS (for backend)</a></li>
+</ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Structure Folder 
+<p>Backend</p>
+<ul>
+  <li>public</li>
+  <ul>
+    <li>img <span><b><i>image public access</i></b></span></li>
+  </ul>
+  <li>src</li>
+  <ul>
+    <li>config ||<span><b><i>You can put database configuration in here</i></b></span></li>
+    <li>controller ||<span><b><i>This folder for the logic componenent of API</i></b></span></li>
+    <li>helper ||<span><b><i>This folder is used to help improve the logic of the controller, for example, response alignment.</i></b></span></li>
+    <li>middleware ||<span><b><i>Middleware is used as a bridge during the routes API, for example, uploading images.</i></b></span></li>
+    <li>model ||<span><b><i>Models are used to give commands to database manipulation, as in the crud example.</i></b></span></li>
+    <li>router ||<span><b><i>The router is the place to set the endpoint for the API.</i></b></span></li>
+  </ul>
+  <li>index.js || <span><b><i>You can setup this application in this file, such as set port, set another library, and other.</i></b></span></li>
+</ul>
+<hr/>
+<p>Frontend</p>
+<ul>
+  <li>public || <span><b><i>You can drop anything if that is accesseble for public</i></b></span></li>
+  <li>src</li>
+  <ul>
+    <li>assets ||<span><b><i>You can store various needs for this website, such as images, styles, javascript, and others.</i></b></span></li>
+    <li>components ||<span><b><i>This folder is for storing layouts, such as Navbar.</i></b></span></li>
+    <li>pages ||<span><b><i>This folder is the main folder in the website display for this application.</i></b></span></li>
+    <li>redux ||<span><b><i>Redux to set the global state, as well as the use of user data.</i></b></span></li>
+    <li>router ||<span><b><i>The router is used to set the endpoint of this application.</i></b></span></li>
+  </ul>
+</ul>
+<hr/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Installation Guide
+<p>Backend</p>
+<ol type="1">
+  <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example.</li>
+  <li>Continue with database creation.</li>
+  <li>You can first import the postman documentation contained in this repo and pay attention to the fields in each POST request.
+</li>
+  <li>To run the server that has been set, use the <b>npm run dev command</b>.</li>
+  <li>When there is a description of the Server running on Port (with the port you have specified), the API is ready to use.</li>
+</ol>
+<hr />
+<p>Frontend</p>
+<ol type="1">
+  <li>Make sure your backend is ready to use, and the backend server is running.</li>
+  <li>Set .env in the frontend folder to be your backend URL for example, your backend server is: <b>'localhost:5000'</b>.</li>
+  <li>Run the front-end server with the command npm run start on Shell / Git Bash.</li>
+  <li>To run the server that has been set, use the <b>npm run dev command</b>.</li>
+  <li>If the website page has appeared, then the front end is ready to use.</li>
+</ol>
+<hr />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Screenshot Application
+<details>
+  <summary>
+    Login Page
+  </summary>
+<img src="ss/login_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Register Page
+  </summary>
+<img src="ss/register_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Landing Page
+  </summary>
+<img src="ss/landing_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Add recipe Page
+  </summary>
+<img src="ss/add recipe_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Profile Page
+  </summary>
+<img src="ss/profile_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    My recipe Page
+  </summary>
+<img src="ss/my recipe_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Detail recipe Page
+  </summary>
+<img src="ss/detail recipe_page.png" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Update recipe Page
+  </summary>
+<img src="ss/update_page.png" alt="login Page" />
+</details>
+<hr />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Demo Application
+<p>Visit this link for app demo <a href='https://mama-recipe-kappa.vercel.app/'>mama recipe</a></p>
+<hr />
 
-## Learn More
+### For More Information
+<p>My Social media account:</p> <br />
+<div>
+<img height="25" width="25" src='https://camo.githubusercontent.com/c9dacf0f25a1489fdbc6c0d2b41cda58b77fa210a13a886d6f99e027adfbd358/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f696e7374616772616d2e737667' alt='ig-icon'></img><span> : @ainurridwan_</span>
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+<div>
+<img height="25" width="25" src='https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667' alt='gmail-icon'></img><span> : ainurridwank2@gmail.com</span>
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div align='center'>
+:copyright: Ainur Ridwan, 2022
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
