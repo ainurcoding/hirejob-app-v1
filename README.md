@@ -97,7 +97,7 @@
   <summary>
     Landing Page
   </summary>
-<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/2.%20landing%20page.PNG" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/landing%20new.png" alt="login Page" />
 </details>
 <details>
   <summary>
@@ -109,13 +109,13 @@
   <summary>
     Profile Worker Page
   </summary>
-<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/4.1%20profile%20page%20worker.PNG" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/profile%20page%20worker%20new.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
     Profile recruiter Page
   </summary>
-<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/profile-recruiter.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/profile%20page%20recruiter%20new.png" alt="login Page" />
 </details>
 <details>
   <summary>
