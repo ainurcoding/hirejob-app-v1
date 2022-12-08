@@ -4,6 +4,11 @@
 
 <hr/>
 
+### Description
+<p>Hirejob is a website application that collects information from two types of users, the first type is the recruiter and the second type is the worker. Employees can display their portfolio and work experience, while recruiters can search for the required worker criteria. This website is built with JavaScript Technology, NodeJS, and its libraries (Express, NextJS), HTML 5, and CSS. For the Backend, I use ExpressJS and NodeJS as the main Technology, for the Frontend I use Next JS a library in the ReactJS library.</p>
+
+<hr />
+
 ## General Information
 ### Build with
 <ul>
