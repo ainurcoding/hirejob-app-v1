@@ -126,55 +126,49 @@ Linting the Application
    <summary>
     Login Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/login%20page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/1.%20login%20page.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
-    Register Page
+    Register Worker Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/regist%20page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/1.2%20registrasi%20worker.PNG" alt="login Page" />
+</details>
+<details>
+  <summary>
+    Register Recruiter Page
+  </summary>
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/1.3%20registrasi%20recruiter.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
     Landing Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/landing%20page.png" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/landing%20new.png" alt="login Page" />
 </details>
 <details>
   <summary>
-    Find ticket page
+    Search Worker Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/Flight%20search%20new.jpeg" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/search%20worker.png" alt="login Page" />
 </details>
 <details>
   <summary>
-    Flight booking page
+    Profile Worker Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/FLight%20booking%20new.jpeg" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/profile%20page%20worker%20new.PNG" alt="login Page" />
 </details>
 <details>
   <summary>
-    My booking list page
+    Profile recruiter Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/My%20booking%20list%20new.jpeg" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/profile%20page%20recruiter%20new.png" alt="login Page" />
 </details>
 <details>
   <summary>
-    Detail my booking Page
+    Update Profile Worker Page
   </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/detail%20booking%20page.png" alt="login Page" />
-</details>
-<details>
-  <summary>
-    My profile
-  </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/Profile%20user%20new.jpeg" alt="login Page" />
-</details>
-<details>
-  <summary>
-    My profile settings
-  </summary>
-<img src="https://github.com/ainurcoding/angkasa-ticketing-app/blob/master/ss/Update%20profile%20user%20new.jpeg" alt="login Page" />
+<img src="https://github.com/ainurcoding/hirejob-app-v1/blob/master/ss/5.%20edit%20profile%20worker.PNG" alt="login Page" />
 </details>
 
 <a href='#table-of-content'>Back to top</a>
