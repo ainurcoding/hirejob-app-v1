@@ -97,7 +97,8 @@ const Index = (props) => {
                   style={{ borderRadius: "50%" }}
                   width={150}
                   height={150}
-                  alt="avatar"
+                  alt="avatar of worker"
+                  priority
                 ></Image>
               </div>
             </div>

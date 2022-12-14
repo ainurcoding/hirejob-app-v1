@@ -10,7 +10,7 @@ const Portofolio = (user_id) => {
   const [isLoading, setIsLoading] = useState(false);
   // console.log(dataLocal)
   const [idLocal, setIdLocal] = useState();
-  console.log(idLocal);
+  // console.log(idLocal);
   useEffect(() => {
     setIsLoading(true);
     const dataLocal = JSON.parse(localStorage.getItem("data"));
@@ -29,7 +29,7 @@ const Portofolio = (user_id) => {
         }
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
       });
     setIsLoading(false);
     // console.log(dataPortof);
@@ -59,13 +59,14 @@ const Portofolio = (user_id) => {
         <div className="portofolio-kontent row gap-2">
           {dataPortof.map((item, index) => (
             <div key={index} className="card-wrapper col-3 d-flex flex-column">
-              <div className="img-wrapper">
+              <div className={`${styles["img-wrapper"]}`}>
                 <Image
                   src={item.portof_img_url}
-                  height={125}
-                  width={125}
-                  className={`${styles["img-size-portofolio"]}`}
-                  alt="dummy-img"
+                  height={150}
+                  width={150}
+                  layout="fill"
+                  alt="foto of portofolio"
+                  priority
                 ></Image>
               </div>
               <div className="desc d-flex justify-content-center">

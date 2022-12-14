@@ -35,6 +35,7 @@ const Navbar2 = () => {
               width={150}
               height={40}
               alt="wkwkwk"
+              priority
             ></Image>
           </Link>
         </div>

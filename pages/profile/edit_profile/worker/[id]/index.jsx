@@ -165,13 +165,20 @@ export default function Index() {
     axios
       .post(`${process.env.APP_BACKEND_URL}/v1/skill/insert_skill/${id}`, body)
       .then((res) => {
-        console.log(res.data);
+        console.log(res)
+        // console.log(res.data);
         console.log(res.data.status);
-        alert("skill add data success");
-        // router.push(`/profile/person_detail/${id}`);
+        if(res.data.status == 'success') {
+          alert("add data skill success");
+          router.push(`/profile/person_detail/${id}`);
+        } else {
+          alert("add data skill failed");
+        }
+        
+        
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
       });
   };
   // end of state skill data
@@ -224,6 +231,12 @@ export default function Index() {
       )
       .then((res) => {
         console.log(res.data);
+        if(res.data.status == 'success') {
+          alert('success insert data work experience');
+          router.push(`/profile/person_detail/${id}`);
+        } else {
+          alert('failed insert data work experience');
+        }
       })
       .catch((err) => {
         console.log(err);
@@ -288,6 +301,12 @@ export default function Index() {
         )
         .then((res) => {
           console.log(res.data);
+          if(res.data.status == 'success') {
+            alert('success insert portofolio');
+            router.push(`/profile/person_detail/${id}`);
+          } else {
+            alert('failed insert portofolio');
+          }
         })
         .catch((err) => {
           console.log(err);
@@ -844,6 +863,7 @@ export default function Index() {
                           <Image
                             id="file-ip-1-preview"
                             alt="upload-preview"
+                            src="preview after selected foto"
                             height={50}
                             width={150}
                             style={{ height: "50px", width: "150px" }}

@@ -215,6 +215,7 @@ export default function Index() {
                     <Image
                       id="file-ip-1-preview"
                       alt="upload-preview"
+                      src="preview after select foto"
                       style={{ height: "50px", width: "150px" }}
                       height={30}
                       width={150}
@@ -234,7 +235,7 @@ export default function Index() {
                       htmlFor="input-img-portofolio"
                       className={`form-label ${styles["img-cursor"]} ${styles["open_sans_sb"]}`}
                     >
-                      <Image src="/assets-img/vector edit profile.png" width={50} height={100} alt="tuslimson" ></Image>
+                      <Image src="/assets-img/vector edit profile.png" width={100 || 'auto'} height={100 || 'auto'} alt="tuslimson" ></Image>
                     </label>
                   </div>
                   <div className="desc  w-100 d-flex flex-column justify-content-center align-items-center">
@@ -244,14 +245,6 @@ export default function Index() {
                     <p className={`${styles["open_sans_lt"]} h6`}>
                       Atau cari untuk mengupload file dari direktorimu
                     </p>
-                  </div>
-                  <div className="additional-desc w-100 d-flex justify-content-center align-items-center gap-2">
-                    <div className="img-1">
-                      <Image src="/assets-img/rules-upload.png" alt="tuslimson" height={100} width={50}></Image>
-                    </div>
-                    <div className="img-2">
-                      <Image src="/assets-img/rules-upload2.png" alt="tuslimson" height={100} width={50}></Image>
-                    </div>
                   </div>
                 </div>
                 <div className={`mt-3 mb-3 ${styles["line-black"]}`}></div>
